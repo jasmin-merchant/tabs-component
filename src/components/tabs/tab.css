@@ -1,0 +1,35 @@
+.tabs-wrapper {
+  margin-bottom: 30px;
+}
+
+.tabs {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.tab-item {
+  padding: 15px 40px;
+  cursor: pointer;
+  color: #252B31;
+  border: 1px solid #eee;
+}
+
+.tab-item.active {
+  color: #34a3a3;
+}
+
+.tab-content {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.tab-content p {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
